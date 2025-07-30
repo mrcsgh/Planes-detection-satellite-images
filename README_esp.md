@@ -6,6 +6,7 @@ Este repositorio contiene todo lo que he utilizado para crear mi propio conjunto
 #### 1.1 Captura de las imágenes
 Las imágenes fueron tomadas con Google Maps en diferentes lugares del mundo para crear un conjunto de datos lo más divesificado posible. Este contiene:
 > +100 imágenes con aviones (civiles y militares)
+
 > +100 imágenes sin aviones
 
 #### 1.2 Preprocesamiento
