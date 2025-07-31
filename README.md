@@ -14,3 +14,5 @@ The images were resized (960x960) and renamed using the script `images_prep.py`
 
 ## 1.3 Labeling
 The images containing airplanes were manually labeled using [labelImg](https://github.com/HumanSignal/labelImg). And I obtained empty `.txt`files using `empty_files.py`
+
+📂 Dataset available [here](https://www.kaggle.com/datasets/mgarch/airplane-detection-dataset)
