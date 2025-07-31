@@ -15,3 +15,5 @@ Las imágenes se redimensionarion (960x960) y renombraron con el script `images_
 ### 1.3 Etiquetado
 Aquellas imágenes en las que aparecían aviones las etiqueté manualmente con [labelImg](https://github.com/HumanSignal/labelImg).
 Y obtuve los archivos `.txt` vacíos para las imágenes sin aviones utilizando `empty_files.py`
+
+### 📂 Conjunto de datos disponible [aquí](https://www.kaggle.com/datasets/mgarch/airplane-detection-dataset)
