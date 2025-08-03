@@ -16,4 +16,13 @@ Las imágenes se redimensionarion (960x960) y renombraron con el script `images_
 Aquellas imágenes en las que aparecían aviones las etiqueté manualmente con [labelImg](https://github.com/HumanSignal/labelImg).
 Y obtuve los archivos `.txt` vacíos para las imágenes sin aviones utilizando `empty_files.py`
 
+### 1.4 Organizo las imágenes y etiquetas
+Divido las imágenes y etiquetas `.txt` en entrenamiento y validación
+> 222 imágenes etiquetadas para el entrenamiento (82% aprox)
+
+> 50 imágenes etiquetadas para la validación (18% aprox)
+
+### 1.5 Archivo `dataset.yaml`
+Se escribe el archivo de configuración del conjunto de datos que incluye la ruta a las diferentes carpetas y los nombres que reciben las clases. En este caso una sola clase **0: airplane**
+
 ### 📂 Conjunto de datos disponible [aquí](https://www.kaggle.com/datasets/mgarch/airplane-detection-dataset)
