@@ -1,6 +1,6 @@
 import os
 
-folder = r"/AirPlanesDetection/images/others/resized"
+folder = r"/AirplanesDetection/images/others/resized"
 
 # Obtain the file list
 images_files = [f for f in os.listdir(folder)]
@@ -16,4 +16,5 @@ for i, filename in enumerate(images_files):
     print(f"File {output_filename} created.")
 
 print("Process completed.")
+
 
