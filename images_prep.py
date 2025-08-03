@@ -2,8 +2,8 @@ import os
 from PIL import Image
 
 
-input_folder = r"/PlanesDetection/images/planes"
-output_folder = r"/PlanesDetection/images/planes/resized"
+input_folder = r"/AirplanesDetection/images/planes"
+output_folder = r"/AirplanesDetection/images/planes/resized"
 new_width = 960
 new_height = 960
 file_prefix = "img"
@@ -29,3 +29,4 @@ for i, filename in enumerate(image_files):
         print(f"Error with {filename}: {e}")
 
 print("Process completed.")
+
