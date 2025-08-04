@@ -40,4 +40,11 @@ YOLOv8 offers different models that vary in computational cost and accuracy. The
 
 ### 2.3 Training and detection
 In the `yolo_detect.ipynb` notebook, the model is trained for 50 epochs, then the best result obtained is loaded and applied to detect airplanes in new satellite images.
+
+### 2.4 Print the Results
+Seven images were used to evaluate the model:
+- 5 with airplanes (17 in total)
+- 2 without airplanes
+
+**Correctly detected 16 out of 17 airplanes.**
 > Note: It is not necessary to preprocess the images to test the model.
