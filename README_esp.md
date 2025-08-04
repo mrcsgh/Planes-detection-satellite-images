@@ -42,3 +42,9 @@ YOLOv8 ofrece diferentes modelos que varían según su coste computacional y su 
 ### 2.3 Entrenamiento y detección
 En el archivo `yolo_detect.ipynb`se entrena el modelo durante 50 epochs, luego se carga el mejor resultado obtenido y se aplica para la detección de aviones en nuevas imágenes satelitales.
 > Nota: no es necesario preprocesar las imágenes para probar el modelo.
+
+### 2.4 Imprimir los resultados
+Se utilizaron 7 imágenes para evaluar el modelo:
+- 5 con aviones (17 en total)
+- 2 sin aviones
+Detectando correctamente 16/17 aviones.
