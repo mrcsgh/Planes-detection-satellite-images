@@ -47,4 +47,5 @@ En el archivo `yolo_detect.ipynb`se entrena el modelo durante 50 epochs, luego s
 Se utilizaron 7 imágenes para evaluar el modelo:
 - 5 con aviones (17 en total)
 - 2 sin aviones
-Detectando correctamente 16/17 aviones.
+
+**Detectando correctamente 16/17 aviones.**
