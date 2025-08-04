@@ -26,3 +26,19 @@ Divido las imágenes y etiquetas `.txt` en entrenamiento y validación
 Se escribe el archivo de configuración del conjunto de datos que incluye la ruta a las diferentes carpetas y los nombres que reciben las clases. En este caso una sola clase **0: airplane**
 
 ### 📂 Conjunto de datos disponible [aquí](https://www.kaggle.com/datasets/mgarch/airplane-detection-dataset)
+
+## 2. Detectar aviones con YOLO
+YOLOv8  es un algoritmo de detección de objetos en tiempo real basado en redes neuronales convolucionales desarrollado por [Ultralytics](https://github.com/ultralytics/ultralytics)
+
+### 2.1 Descargar el paquete ultralytics
+```bash
+pip install ultralytics
+```
+
+### 2.2 Seleccionar el modelo
+YOLOv8 ofrece diferentes modelos que varían según su coste computacional y su precisión. Estos modelos están diseñados para adaptarse a distintos escenarios, desde dispositivos con recursos limitados hasta sistemas de alto rendimiento. En este proyecto se utiliza la versión **YOLOv8m** (media) porque ofrece una buena precisión con un coste moderado.
+> Nota: para aplicaciones reales sería interesante probar modelos más potentes.
+
+### 2.3 Entrenamiento y detección
+En el archivo `yolo_detect.ipynb`se entrena el modelo durante 50 epochs, luego se carga el mejor resultado obtenido y se aplica para la detección de aviones en nuevas imágenes satelitales.
+> Nota: no es necesario preprocesar las imágenes para probar el modelo.
