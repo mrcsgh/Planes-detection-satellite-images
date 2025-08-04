@@ -25,3 +25,19 @@ I split the images and lables `.txt` in training and validation sets
 The dataset´s configuration file is written. It includes the path to the different folders and the names that receive the classes. In this case, only one class **0: airplane**
 
 ### 📂 Dataset available [here](https://www.kaggle.com/datasets/mgarch/airplane-detection-dataset)
+
+## 2. Detecting airplanes with YOLO
+YOLOv8 is a real-time object detection algorithm based on convolutional neural networks developed by [Ultralytics](https://github.com/ultralytics/ultralytics).
+
+### 2.1 Install the ultralytics package
+```bash 
+pip install ultralytics
+```
+
+### 2.2 Choose the model
+YOLOv8 offers different models that vary in computational cost and accuracy. These models are designed to adapt to different scenarios, from resource-constrained devices to high-performance systems. In this project, the YOLOv8m (medium) version is used because it offers good accuracy with moderate computational cost.
+> Note: For real-world applications, it may be worth testing more powerful models.
+
+### 2.3 Training and detection
+In the `yolo_detect.ipynb` notebook, the model is trained for 50 epochs, then the best result obtained is loaded and applied to detect airplanes in new satellite images.
+> Note: It is not necessary to preprocess the images to test the model.
